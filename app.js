@@ -1,25 +1,23 @@
 //Campo de variáveis e constantes
 var res = 0;
 var opem = 0;
-var open1 = 0;
-var open2 = 0;
-var open3 = 0;
-var open4 = 0;
-var open5 = 0;
-var open6 = 0;
-var open7 = 0;
-var open8 = 0;
-var open9 = 0;
-var open10 = 0;
-var open11 = 0;
-var open12 = 0;
+var opem1 = 0;
+var opem2 = 0;
+var opem3 = 0;
+var opem4 = 0;
+var opem5 = 0;
+var opem6 = 0;
+var opem7 = 0;
+var opem8 = 0;
+var opem9 = 0;
+var opem10 = 0;
 
 //Campo de function
 
 //Fuction de redirecionar para o mapa mental
 
 function redirect(){
-    window.location.href="https://www.mindmeister.com/pt/1689650276/grupo-4"
+    window.location.href="https://mm.tt/1689650276?t=BnTBwkuNaa"
 }
 
 //Function de redirecionar para as perguntas
