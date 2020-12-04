@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./estilo2.css">
+</head>
+<body>
+    <!--Prguntas-->
+    <div id="conteudo">
+        <div class="perg1">  
+            <p> 1)"Voce" é um pronome do caso reto?</p>
+            <div class="btn" onclick="op12()" onclick="conf()"><button><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Sim</span></button></div>
+            <div class="btn" onclick="op11()" onclick="conf()"><button><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Não</span></button></div>
+        </div>
+        <hr>
+        <div class="perg">  
+            <p> 2) Qual é a Segunda pessoa do plural do caso reto?</p>
+            <!--Referência a uma função do app.js com o onclick e o seu nome-->
+            <div class="btn" onclick="op21()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Tu</span></button></div>
+            <div class="btn" onclick="op22()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Vocês</span></button></div>
+            <div class="btn" onclick="op23()" onclick="conf()"><button ><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) Nós</span></button></div>
+            <div class="btn" onclick="op24()" onclick="conf()"><button ><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">D) Vós</span></button></div>
+        </div>
+        <hr>
+        <div class="perg">  
+            <p> 3)Na frase, "O desenho foi feito por mim", está na voz?</p>
+            <div class="btn" onclick="op31()" onclick="conf()"><button ><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Passiva</span></button></div>
+            <div class="btn" onclick="op32()" onclick="conf()"><button ><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Ativa</span></button></div>
+            <div class="btn" onclick="op33()" onclick="conf()"><button ><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) Reflexiva</span></button></div>
+        </div>
+        <hr>
+        <div class="perg">  
+            <p> 4) Qual modo verbal que exprime suposição?</p>
+            <div class="btn" onclick="op41()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Indicativo</span></button></div>
+            <div class="btn" onclick="op42()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Substantivo</span></button></div>
+            <div class="btn" onclick="op43()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Imperativo</span></button></div>
+        </div>
+        <hr>
+        <div class="perg">  
+            <p> 5)Qual é o pronome de tratamento?</p>
+            <div class="btn" onclick="op51()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Meu</span></button></div>
+            <div class="btn" onclick="op52()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Vossa-Majestade</span></button></div>
+            <div class="btn" onclick="op53()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) Este</span></button></div>        
+        </div>
+        <div class="perg">
+            <p> 6)As palavras meu, dele e nosso são que tipo de pronome?</p>
+            <div class="btn" onclick="op61()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Indefinido</span></button></div>
+            <div class="btn" onclick="op62()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Pessoal</span></button></div>
+            <div class="btn" onclick="op63()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) Possessivo</span></button></div>
+        </div>
+        <hr>
+        <div class="perg">
+            <p>7) As palavras este, essa, aquela, são que tipo de pronome?</p>
+            <div class="btn" onclick="op71()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Indefinido</span></button></div>
+            <div class="btn" onclick="op72()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Indefinido</span></button></div>
+            <div class="btn" onclick="op73()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Indefinido</span></button></div>
+        </div>
+        <hr>
+        <div class="perg">
+            <p>8) Na frase “quem roubou o bolinho?”, o pronome é?</p>
+            <div class="btn" onclick="op81()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Possessivo</span></button></div>
+            <div class="btn" onclick="op82()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Interrogativo</span></button></div>
+            <div class="btn" onclick="op83()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) Relativo</span></button></div>       
+        </div>
+        <hr>
+        <div class="perg">
+            <p>9)</p>
+            <div class="btn" onclick="op91()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) Relativo</span></button></div>
+            <div class="btn" onclick="op92()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) Demonstrativo</span></button></div>
+            <div class="btn" onclick="op93()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) Substantivo</span></button></div>
+            
+        </div>
+        <hr>
+        <div class="perg">
+            <p>10)Assinale a alternativa que possa substituir, pela ordem, as partículas de transição dos períodos abaixo, sem alterar o significado delas.
+                <br>
+                “Em (primeiro lugar), observemos o avô. (Igualmente), lancemos um olhar para a avó. (Também) o pai deve ser observado. Todos são altos e morenos. (Consequentemente), a filha também será morena e alta.”
+            </p>
+            <div class="btn" onclick="op101()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">A) primeiramente, ademais, além disso, em suma</span></button></div>
+            <div class="btn" onclick="op102()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">B) acima de tudo, também, analogamente, finalmente</span></button></div>
+            <div class="btn" onclick="op103()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">C) primordialmente, similarmente, segundo, portanto</span></button></div>
+            <div class="btn" onclick="op104()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">D) antes de mais nada, da mesma forma, por outro lado, por conseguinte</span></button></div>
+            <div class="btn" onclick="op105()" onclick="conf()"><button id="itenscarga" onclick="relacaoItens()"><i class="fa fa-list" aria-hidden="true"></i><span id="troca_nome">E) sem dúvida, intencionalmente, pelo contrário, com efeito.</span></button></div>  
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

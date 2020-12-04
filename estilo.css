@@ -1,0 +1,21 @@
+html{
+    font-family: helvetica;
+    text-align: center;
+}
+.top{
+    margin-top: 50pt;
+}
+h1{
+    font-size: 25pt;
+}
+p{
+    font-size: 25pt;
+}
+button{
+    background-color: yellowgreen;
+    font-size: 90pt;
+    margin-bottom: 180px;
+}
+.h1{
+    margin-bottom: 100px;
+}

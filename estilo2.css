@@ -1,0 +1,36 @@
+#conteudo {
+    width: 600px;
+    margin: 0 auto;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.perg1{
+    margin-top: 10px;
+    margin-bottom: 160px;
+    margin-left: 30px;
+}
+.perg{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    margin-left: 30px;
+}
+.perg2{
+    margin-top: 160px;
+    margin-left: 30px;
+}
+button{
+    font-size: 18pt;
+    font-family: Helvetica;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20pt ;
+    font-family: Helvetica;
+}
