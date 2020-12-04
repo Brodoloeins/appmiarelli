@@ -19,7 +19,7 @@ var open12 = 0;
 //Fuction de redirecionar para o mapa mental
 
 function redirect(){
-    window.location.href="https://mm.tt/1689650276?t=BnTBwkuNaa"
+    window.location.href="https://www.mindmeister.com/pt/1689650276/grupo-4"
 }
 
 //Function de redirecionar para as perguntas
